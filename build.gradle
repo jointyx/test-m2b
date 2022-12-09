@@ -27,15 +27,14 @@ test {
 }
 
 publishing {
-    repositories {
-        // Local repository which we can first publish in it to check artifacts
-        maven {
-            name = "LocalTestRepo"
-            url = uri("file://${buildDir}/local-repository")
-        }
-    }
     publications {
-        // ...
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.jointyx'
+            artifactId = 'library'
+            version = '2.0'
+
+            from components.java
+        }
     }
 }
 
