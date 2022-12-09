@@ -11,6 +11,6 @@
         <module name="mobile2b-web-function-sdk.test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>

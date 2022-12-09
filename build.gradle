@@ -1,6 +1,6 @@
 plugins {
     id 'java-library'
-    id 'maven-publish'
+    id 'maven'
 }
 
 group 'com.mobile2b'
@@ -26,6 +26,7 @@ test {
     useJUnitPlatform()
 }
 
+/*
 publishing {
     publications {
     }
@@ -39,4 +40,4 @@ publishing {
             }
         }
     }
-}
+}*/
